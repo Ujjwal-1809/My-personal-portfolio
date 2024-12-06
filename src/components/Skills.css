@@ -1,0 +1,47 @@
+#container{
+    display: grid;
+    grid-template-rows: 15% 15% 70%;
+    row-gap: 1%;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 50%);
+    place-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.iconImg {
+    animation: float 2s ease-in-out infinite;
+    transform-origin: center;
+    cursor: pointer;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+   /* media */
+
+   @media(max-width: 700px){
+    .iconImg{
+      height: 45%;
+    }
+   }
+
+   @media(min-height: 1100px){
+.skillName{
+  font-size: 2rem;
+}
+   }

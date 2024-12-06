@@ -1,0 +1,92 @@
+
+.projects{
+    display: grid;
+    grid-template-rows: 10vh auto auto auto auto;
+    row-gap: 2%;
+}
+
+.riddle{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.myProject{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.des{
+    font-family: "Oldenburg", serif;
+    font-weight: 600;
+    font-style: normal;
+    /* color: rgba(36, 35, 35, 0.788); */
+}
+.link{
+    font-family: "Oldenburg", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.imgBox img{
+    transition: transform 0.4s ease-in-out;
+}
+
+.imgBox img:hover{
+    transform: scale(1.07);
+}
+
+.project1{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.534);
+   
+}
+
+/* media */
+
+@media (max-width: 950px){
+.project1{
+    flex-direction: column;
+height: 100vh;
+}
+.img{
+    height: 30%;
+    width: 100%;
+}
+.imgBox{
+    height: 90%;
+
+}
+.description{
+    height: 70%;
+    width: 100%;
+}
+}
+
+@media (max-width: 950px) and (max-height:700px){
+.project1{
+    flex-direction: column;
+height: 115vh;
+}
+.img{
+    height: 30%;
+    width: 100%;
+}
+.imgBox{
+    height: 90%;
+
+}
+.description{
+    height: 70%;
+    width: 100%;
+}
+}
+
+@media (max-width: 950px) and (min-width:650px){
+    .description{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:700px){
+    .projects{
+        grid-template-rows: 5vh auto auto auto auto;
+    }
+}
