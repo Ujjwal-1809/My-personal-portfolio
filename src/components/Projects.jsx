@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Projects.css"
 import riddle from "../assets/riddle.png"
+import chatApp from "../assets/chatApp.png"
 import weather from "../assets/weather.png"
 import imageSearch from "../assets/imageSearch.png"
 import dictionary from "../assets/dictionary.png"
@@ -23,6 +24,29 @@ const Projects = () => {
     <div className='projects h-auto w-[100%]'> <div></div>
 
       <h1 className={`myProject w-[100%] h-[100%] text-5xl text-center font-bold ${isDarkMode ? "text-white" : ""}`}>My Projects</h1>
+
+      <div className='project1 h-auto w-[90%] flex justify-self-center rounded-lg'>
+
+        <div className={`img w-[50%] flex justify-center rounded-lg items-center ${isDarkMode ? "bg-slate-500" : "bg-slate-200"}`}>
+
+          <a className="imgBox h-[70%] w-[80%]" target='blank' href="https://mern-chat-app-wyvi.onrender.com/">    <img className='h-[100%] w-[100%] rounded-md cursor-pointer' src={chatApp} alt="" />
+          </a>
+
+        </div>
+
+        <div className={`description w-[50%] h-[100%] text-center flex rounded-lg flex-col justify-center items-center p-2 ${isDarkMode ? "bg-slate-700 text-white" : "bg-slate-100"} `}>
+          <h1 className='text-4xl riddle'>RiddleRush</h1><br />
+          <p className={`des w-[80%] ${isDarkMode ? "text-slate-100" : "text-zinc-600"}`}>A real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Socket.io for seamless messaging and JWT authentication for secure user access.</p>
+          <br />
+          <Tech name="React.js" /> <br />
+          <Tech name="Node.js" /> <br />
+          <Tech name="MongoDB" /> <br />
+          <Tech name="Socket.io" /> <br />
+
+          <div className={`link ${isDarkMode ? "text-sky-400" : "text-purple-900"}`}>Live demo: <a target='blank' href="https://mern-chat-app-wyvi.onrender.com/">&nbsp;<i className="fa-solid fa-link text-xl"></i></a></div>
+        </div>
+
+      </div>
 
       <div className='project1 h-auto w-[90%] flex justify-self-center rounded-lg'>
 

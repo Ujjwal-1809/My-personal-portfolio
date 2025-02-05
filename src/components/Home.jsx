@@ -11,11 +11,12 @@ const Home = () => {
   return (    
     <div id='home' className= {`${isDarkMode ? "text-white bg-slate-900" : "bg-white"}`}>
 <div></div>
-      <div className= "shortDes justify-self-center h-[89vh] flex flex-col justify-center w-[70%] text-center gap-y-4">
+      <div className= "shortDes justify-self-center h-[89vh] flex flex-col justify-center w-[70%] text-center ">
         <h1 className='hey text-5xl '>Hey! I'm <span className={`text-6xl ${isDarkMode ? "text-sky-400" : "text-red-800"}`}>Ujjwal</span> &#128075;</h1>
-        <p className={`para text-xl font-bold ${isDarkMode ? "text-slate-200" : "text-slate-500"}`}>An aspiring frontend developer with a strong foundation in web development, proficient in HTML, CSS, JavaScript and React.js.
-        <br /> <br />Seeking an entry-level position as a Frontend Web Developer to apply my skills and passion for creating user
-          friendly web applications and gain real world experience in web development.</p> 
+        <p className={`mt-8 mb-8 para text-sm font-bold ${isDarkMode ? "text-slate-200" : "text-slate-500"}`}>Aspiring Web Developer with a strong foundation in frontend and backend technologies. Proficient in HTML, CSS, 
+JavaScript and MERN stack with hands-on experience in building and deploying personal projects. Passionate about creating 
+user-friendly, responsive, and scalable applications. <br /> Seeking an entry-level position to apply my skills, enhance my expertise in 
+full-stack development, and gain real-world experience in the industry. </p> 
         <p className='text-blue-700 font-bold text-start'><i className="fa-solid fa-location-dot"></i> Prayagraj, Uttar Pradesh</p>
         <div className='flex'>
           <div className='dot h-3 w-3 mt-2 bg-green-500 rounded-full relative'></div>

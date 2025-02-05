@@ -34,7 +34,7 @@ const Navbar = () => {
       </div>
       <div className="link flex flex-col">
         <i className="fa-solid fa-file"></i>{" "}
-        <a href="/My_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume
+        <a href="/My-resume.pdf" target="_blank" rel="noopener noreferrer">Resume
         </a>
       </div>
       <div className="text-2xl cursor-pointer">
