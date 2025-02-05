@@ -35,7 +35,7 @@ const Projects = () => {
         </div>
 
         <div className={`description w-[50%] h-[100%] text-center flex rounded-lg flex-col justify-center items-center p-2 ${isDarkMode ? "bg-slate-700 text-white" : "bg-slate-100"} `}>
-          <h1 className='text-4xl riddle'>RiddleRush</h1><br />
+          <h1 className='text-4xl riddle'>Chit-Chat</h1><br />
           <p className={`des w-[80%] ${isDarkMode ? "text-slate-100" : "text-zinc-600"}`}>A real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Socket.io for seamless messaging and JWT authentication for secure user access.</p>
           <br />
           <Tech name="React.js" /> <br />
